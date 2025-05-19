@@ -8,6 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 
 {
+    setFixedSize(600, 400);
     stack = new QStackedWidget(this);
     setCentralWidget(stack);
 

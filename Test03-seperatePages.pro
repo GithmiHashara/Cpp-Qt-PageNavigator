@@ -13,18 +13,21 @@ SOURCES += \
     login.cpp \
     main.cpp \
     mainwindow.cpp \
+    profile.cpp \
     welcome.cpp
 
 HEADERS += \
     home.h \
     login.h \
     mainwindow.h \
+    profile.h \
     welcome.h
 
 FORMS += \
     home.ui \
     login.ui \
     mainwindow.ui \
+    profile.ui \
     welcome.ui
 
 # Default rules for deployment.
